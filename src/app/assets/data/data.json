@@ -1,0 +1,89 @@
+{
+    "announcements": [
+      {
+        "message": "On account of Independence Day, August 15th will be a holiday."
+      },
+      {
+        "message": "Reminder to finish your assignments and submit them by Monday."
+      }
+    ],
+    
+    "classSchedule": [
+      {
+        "class": "Class 7",
+        "subject": "Science",
+        "session": "Live Class",
+        "date": "Tuesday",
+        "time": "5:00-5:50 PM",
+        "day": "Yesterday"
+      },
+      {
+        "class": "Class 7",
+        "subject": "Science",
+        "session": "Live Class",
+        "date": "Tuesday",
+        "time": "6:30-7:15 PM",
+        "day": "Today"
+      },
+      {
+        "class": "Class 7",
+        "subject": "Science",
+        "session": "Live Class",
+        "date": "Tuesday",
+        "time": "5:00-5:50 PM",
+        "day": "Tomorrow"
+      },
+      {
+        "class": "Class 7",
+        "session": "Live Class",
+        "date": "Tuesday",
+        "time": "5:00-5:50 PM",
+        "day": "23rd Sept, 2024"
+      }
+    ],
+    "quickLinks": [
+    
+    {
+      "name": "Canvas LMS",
+      "description": "Click here to access your LMS portal for assignments, class recordings, and notes.",
+      "link": "Click here"
+    },
+    {
+      "name": "Join Live Class",
+      "description": "Click here to join your live class session. Please do not share this link.",
+      "link": "Click here"
+    },
+    {
+      "name": "Contact Teacher",
+      "description": "Click here to contact your teacher for any doubts or concerns.",
+      "link": "Click here"
+    }
+  ],
+  "recording": [
+    {
+      "class": "Class 7",
+      "subject": "Math",
+      "session": "Algebraic Equations",
+      "date": "24th October, 2024"
+    },
+    {
+      "class": "Class 7",
+      "subject": "Math",
+      "session": "Differential Maths",
+      "date": "24th October, 2024"
+    },
+    {
+      "class": "Class 7",
+      "subject": "Science",
+      "session": "Fundamentals of Organic Chemistry",
+      "date": "24th October, 2024"
+    },
+    {
+      "class": "Class 7",
+      "subject": "Math",
+      "session": "Trigonometry 101",
+      "date": "24th October, 2024"
+    }
+  ]
+  }
+  
