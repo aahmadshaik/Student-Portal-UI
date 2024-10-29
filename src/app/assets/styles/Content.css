@@ -8,7 +8,7 @@
   column-gap: 40px;
   row-gap: 30px;
   max-width: 1200px;
-  /* margin: 40px 40px; */
+  margin: 40px 40px;
 }
 
 @media (max-width: 768px) {
@@ -19,12 +19,8 @@
 
 @media (max-width: 480px) {
   .container {
-    /* justify-content: center; */
-    display: flex;
-    flex-direction: column;
-    justify-content: baseline;
-    align-items: baseline;
-    /* grid-template-columns: 1fr; */
-    margin: 0; /* Adjust margin for smaller screens */
+    grid-template-columns: 1fr;
+
+    margin: 0;
   }
 }

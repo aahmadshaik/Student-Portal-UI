@@ -81,13 +81,14 @@
 
 .list2-box {
   display: flex;
+
   flex-direction: column;
   align-items: center;
   background-color: #ffffff;
   margin-top: 20px;
   border-radius: 20px;
   width: 98%;
-  height: 328px;
+  height: 350px;
 }
 
 .list2-box ul {
@@ -185,4 +186,15 @@
 
 .list2-box li:nth-last-child(3) img {
   filter: brightness(0) saturate(100%) invert(100%);
+}
+@media (max-width: 480px) {
+  .heading1 {
+    font-size: 20px;
+  }
+  .c-container {
+    margin-top: 20px;
+  }
+  .heading2 {
+    font-size: 20px;
+  }
 }

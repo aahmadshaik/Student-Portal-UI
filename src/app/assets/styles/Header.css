@@ -55,3 +55,33 @@
   border-radius: 8px;
   text-align: center;
 }
+
+@media (max-width: 480px) {
+  .userName,
+  .subject {
+    display: none;
+  }
+  .header {
+    width: vw;
+    height: 98px;
+
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: row;
+  }
+  .custom-heading {
+    font-size: 20px;
+    text-align: right;
+    line-height: 19.8px;
+    margin-left: 100px;
+  }
+  .logo {
+    width: 92px;
+    height: 45.3px;
+    top: 26px;
+    left: 20px;
+    gap: 0px;
+    opacity: 0px;
+  }
+}
