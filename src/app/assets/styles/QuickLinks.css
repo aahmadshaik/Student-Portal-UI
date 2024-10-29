@@ -1,45 +1,39 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap");
 
 .quick-links-container {
-  position: absolute; /* Changed to relative for easier positioning */
   /* border: 2px solid red; */
   display: flex;
-  margin-top: 60px;
-  margin-left: 479px;
+  /* align-items: center; */
+  justify-content: center;
   flex-direction: column;
   width: 346px;
   height: 567px;
-  /* padding: 20px; */
   font-family: "Outfit", sans-serif;
 }
 
 .headingLink {
   /* border: 2px solid red; */
   font-family: "Outfit", sans-serif;
-
+  text-align: left;
   font-size: 24px;
   font-weight: 700;
   line-height: 23.76px;
   color: #3a3a3a;
 
-  /* margin: 0; */
-  margin-bottom: 15px; /* Space below the heading */
+  margin-bottom: 15px;
   text-align: left;
 }
 
 .quick-links-list {
-  /* border: 2px solid green; */
-  /* width: 50%; */
   list-style: none;
   padding: 0;
   margin: 0;
   display: flex;
   flex-direction: column;
-  gap: 10px; /* Space between list items */
+  gap: 10px;
 }
 
 .quick-links-list li {
-  /* border: 2px solid rgb(12, 227, 51); */
   border-radius: 20px;
   padding: 20px;
   width: 346px;
@@ -68,7 +62,6 @@
   background-color: #6669fe;
 }
 
-/* Hover effect: background to white, text to original color */
 .color-0:hover {
   background-color: white;
   color: #4749b3;
@@ -83,7 +76,7 @@
   background-color: white;
   color: #6669fe;
 }
-/* Define a hover effect for the first quick-link item */
+
 .quick-link-item.color-0:hover .quickLinks-logo {
   filter: brightness(0) saturate(100%) invert(28%) sepia(75%) saturate(4953%)
     hue-rotate(222deg) brightness(92%) contrast(99%);
@@ -106,7 +99,7 @@
   font-weight: 700;
   font-size: 24px;
   line-height: 23.76px;
-  color: inherit; /* Matches color on hover */
+  color: inherit;
 }
 .quick-links-list li a {
   font-family: "Outfit", sans-serif;
@@ -118,10 +111,9 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 11.88px;
-  color: inherit; /* Matches color on hover */
+  color: inherit;
 }
 .linkDisc {
   text-decoration: none;
-  color: inherit; /* Matches color on hover */
-  /* font-size: 12px; */
+  color: inherit;
 }

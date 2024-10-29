@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap");
 
 .A-container {
+  /* border: 2px solid red; */
   width: 395px;
   height: 567px;
-  position: absolute;
+
   top: 158px;
   left: 60px;
   display: flex;
@@ -38,20 +39,19 @@
   flex-direction: column;
 }
 
-/* Announcement List Item Styling */
 .announcement-item {
   display: flex;
-  align-items: center; /* Align items vertically in the center */
-  margin: 10px 20px; /* Add some margin for spacing */
-  background-color: #f0f0f0; /* Gray background */
-  color: #4749b3; /* Blue text */
-  padding: 10px;
+  align-items: center;
+  margin: 10px 20px;
+  background-color: #f0f0f0;
+  color: #4749b3;
+  padding: 8px;
   width: 100%;
-  border-radius: 8px; /* Rounded corners */
+  border-radius: 8px;
 }
 
 .announcement-item img {
-  margin-right: 10px; /* Space between image and text */
+  margin-right: 10px;
 }
 
 .announcement-text {
@@ -76,6 +76,7 @@
   line-height: 23.76px;
   color: #3a3a3a;
   margin-top: 20px;
+  text-align: left;
 }
 
 .list2-box {
@@ -98,7 +99,6 @@
   flex-direction: column;
 }
 
-/* Class Schedule List Item Styling */
 .list2-box li {
   display: flex;
   flex-direction: column;
@@ -108,7 +108,7 @@
   width: 354px;
   height: 200px;
   margin-top: 20px;
-  background-color: #f2f2f2; /* Gray background */
+  background-color: #f2f2f2;
   padding: 15px;
   text-align: left;
   font-family: "Outfit", sans-serif;

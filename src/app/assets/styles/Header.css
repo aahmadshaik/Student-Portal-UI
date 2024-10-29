@@ -1,57 +1,57 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap");
 
 .header {
+  /* border: 2px solid red; */
   background-color: #6669fe;
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   height: 98px;
-  /* justify-content: space-around; */
-  /* column-gap: 150px; */
+  color: white;
   display: flex;
-
-  /* width: 1280px; */
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  z-index: 1000;
 }
+
 .logo {
   margin-top: 24px;
-  margin-left: 50px;
-  position: absolute;
-  scale: fit;
+  max-height: 70px;
 }
-.custom-heading {
-  height: 23px;
-  position: absolute;
-  margin-top: 32px;
-  margin-left: 532px;
 
+.custom-heading {
   font-family: "Outfit", sans-serif;
   font-size: 32px;
   font-weight: 700;
-  line-height: 31.68px;
+  line-height: 1;
   text-align: center;
 }
 
 .userName {
-  /* width: 164px; */
-  height: 16px;
-  margin-top: 32px;
-  margin-left: 1066px;
-  position: absolute;
   font-family: "Outfit", sans-serif;
   font-weight: 600;
   font-size: 23.33px;
   line-height: 29.4px;
   text-align: right;
+  margin-left: auto;
 }
 
 .subject {
-  position: absolute;
-  width: 135px;
-  height: 8px;
-  margin-top: 60px;
-  margin-left: 1095px;
-
   font-family: "Outfit", sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 15.12px;
   text-align: right;
+}
+
+.container {
+  background-color: lightblue;
+  width: 30%;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  text-align: center;
 }

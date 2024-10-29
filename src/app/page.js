@@ -1,14 +1,11 @@
-import Announcements from "./components/Announcements";
-import QuickLinks from "./components/QuickLinks";
 import Header from "./components/Header";
-import ClassRecordings from "./components/ClassRecordings";
+import Content from "./components/Content";
+
 export default function Home() {
   return (
     <div>
       <Header />
-      <Announcements />
-      <QuickLinks />
-      <ClassRecordings />
+      <Content />
     </div>
   );
 }

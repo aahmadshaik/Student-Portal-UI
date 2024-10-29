@@ -2,18 +2,14 @@
 
 .ClassRecordings {
   /* border: 2px solid red; */
-  position: absolute;
+
   color: black;
-  margin-top: 60px;
-  margin-left: 849px;
+
   width: 371px;
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
-  /* height: 565px; */
 }
 .ClassRecordings-container {
-  /* border: 2px solid blue; */
   width: 100%;
   height: 530px;
   border-radius: 20px;
@@ -25,8 +21,8 @@
 }
 
 .Class-Heading {
-  /* width: 267px; */
   height: 17px;
+  text-align: left;
   font-family: "Outfit", sans-serif;
   font-weight: 700;
   font-size: 24px;
@@ -35,7 +31,6 @@
 }
 
 .Search-Bar {
-  /* border: 2px solid green; */
   border: none;
   font-family: "Outfit", sans-serif;
 
@@ -43,22 +38,18 @@
   color: #0000004d;
   outline: none;
   border-radius: 4px;
-  /* width: 400px; */
+
   height: 32px;
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  width: 100%; /* Make the search bar take full width of its parent */
-  max-width: 330px; /* Set a max-width for the search bar */
-  padding: 10px; /* Add some padding for better appearance */
-  margin-top: 20px; /* Add margin to give space above and below */
-  display: block; /* Ensure it behaves as a block element */
-  margin-left: auto; /* Center horizontally */
+
+  width: 100%;
+  max-width: 330px;
+  padding: 10px;
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
   margin-right: auto;
 }
 .Search-Bar::placeholder {
-  /* width: 143px; */
-  /* height: 8px; */
   font-family: "Outfit", sans-serif;
   font-weight: 300;
   font-size: 12px;
@@ -74,9 +65,6 @@
   height: 24px;
   margin-left: 25px;
   align-items: center;
-  /* justify-content: center; */
-  /* padding: 10px; */
-  /* margin: 20px 0; */
 }
 .Filter-Options p {
   width: 40px;
@@ -124,17 +112,17 @@
   padding: 10px;
   margin: 0% 20px;
   justify-content: center;
-  /* align-items: center; */
+
   row-gap: 10px;
   width: 322px;
   height: 80px;
-  border-bottom: 0.5px solid #00000032; /* Specify the width, style, and color */
-  margin-bottom: 20px; /* Optional: add margin between items */
+  border-bottom: 0.5px solid #00000032;
+  margin-bottom: 20px;
 }
 
 .class-name {
-  /* width: 68px; */
   height: 8px;
+  text-align: left;
   font-family: "Outfit", sans-serif;
   font-weight: 500;
   font-size: 12px;
@@ -143,13 +131,14 @@
 }
 .session-info {
   max-width: 250px;
+  text-align: left;
   height: 11px;
   font-family: "Outfit", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 15.84px;
   color: #000000;
-  /* margin-top: 8px; */
+
   margin-bottom: 5px;
 }
 
@@ -193,48 +182,41 @@
 }
 
 .video img {
-  /* border: 2px solid red; */
   width: 100px;
   height: 64px;
   border-radius: 4px;
   position: absolute;
-  margin-left: 200px;
-  /* display: inline; */
-  /* margin-top: 10px; */
-  /* margin-right: 10px; */
-  /* justify-content: center; */
-  /* align-items: center; */
+  margin-left: 60px;
 }
 .video {
-  position: relative; /* Ensure the overlay is positioned correctly */
+  position: relative;
 }
 
 .recording-image {
   width: 60px;
   height: 40px;
-  transition: opacity 0.3s ease; /* Smooth transition for opacity */
+  transition: opacity 0.3s ease;
 }
 
 .recording-item:hover .recording-image {
-  opacity: 0.5; /* Reduce opacity on hover */
+  opacity: 0.5;
 }
 
 .play-now {
   position: absolute;
-  top: 25px; /* Center the text vertically */
-  left: 215px; /* Center the text horizontally */
+  top: 25px;
+  left: 225px;
 
-  color: rgb(16, 15, 15); /* Color of the text */
-  font-weight: bold; /* Make the text bold */
-  opacity: 0; /* Initially hidden */
-  transition: opacity 0.3s ease; /* Smooth transition for opacity */
+  color: rgb(16, 15, 15);
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
 .recording-item:hover .play-now {
-  opacity: 1; /* Show the text on hover */
+  opacity: 1;
 }
 
-/* Overlay for zoomed image */
 .overlay {
   position: fixed;
   top: 0;
