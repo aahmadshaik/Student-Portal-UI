@@ -53,7 +53,9 @@
   text-align: center;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
-
+.quickLinks-logo {
+  color: #ffffff;
+}
 .color-0 {
   background-color: #4749b3;
 }
@@ -80,6 +82,19 @@
 .color-2:hover {
   background-color: white;
   color: #6669fe;
+}
+/* Define a hover effect for the first quick-link item */
+.quick-link-item.color-0:hover .quickLinks-logo {
+  filter: brightness(0) saturate(100%) invert(28%) sepia(75%) saturate(4953%)
+    hue-rotate(222deg) brightness(92%) contrast(99%);
+}
+.quick-link-item.color-1:hover .quickLinks-logo {
+  filter: invert(75%) sepia(53%) saturate(3250%) hue-rotate(285deg)
+    brightness(100%) contrast(102%);
+}
+.quick-link-item.color-2:hover .quickLinks-logo {
+  filter: brightness(10) saturate(100%) invert(62%) sepia(91%) saturate(433%)
+    hue-rotate(189deg) brightness(100%) contrast(92%);
 }
 
 .quick-links-list li h3 {

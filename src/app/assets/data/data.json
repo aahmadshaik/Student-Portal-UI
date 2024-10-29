@@ -1,9 +1,11 @@
 {
     "announcements": [
       {
+        "icon": "sun.png",
         "message": "On account of Independence Day, August 15th will be a holiday."
       },
       {
+        "icon": "clipboard-text.png",
         "message": "Reminder to finish your assignments and submit them by Monday."
       }
     ],
@@ -44,16 +46,19 @@
     "quickLinks": [
     
     {
+        "logo": "canvas.png",
       "name": "Canvas LMS",
       "description": "Click here to access your LMS portal for assignments, class recordings, and notes.",
       "link": "Click here"
     },
     {
+        "logo": "personalcard.png",
       "name": "Join Live Class",
       "description": "Click here to join your live class session. Please do not share this link.",
       "link": "Click here"
     },
     {
+        "logo": "Group.png",
       "name": "Contact Teacher",
       "description": "Click here to contact your teacher for any doubts or concerns.",
       "link": "Click here"
