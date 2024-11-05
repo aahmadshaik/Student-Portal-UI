@@ -67,7 +67,7 @@
   align-items: center;
 }
 .Filter-Options p {
-  width: 40px;
+  /* width: 40px; */
   height: 7px;
   font-family: "Outfit", sans-serif;
   font-weight: 400;
@@ -121,6 +121,7 @@
 }
 
 .class-name {
+  width: auto;
   height: 8px;
   text-align: left;
   font-family: "Outfit", sans-serif;
@@ -130,7 +131,7 @@
   color: #4749b3;
 }
 .session-info {
-  max-width: 250px;
+  /* max-width: 250px; */
   text-align: left;
   height: 11px;
   font-family: "Outfit", sans-serif;
@@ -143,7 +144,7 @@
 }
 
 .recording-date {
-  width: 88px;
+  /* width: 88px; */
   height: 7px;
   font-family: "Outfit", sans-serif;
   font-weight: 400;
